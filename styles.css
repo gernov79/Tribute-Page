@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.9rem;
+}
+
+#main {
+  margin: 0.8rem;
+  padding: 0 3.6rem 7.2rem;
+  border-radius: 1.6rem;
+  background: url("./img/jimi-hendrix-logo.png") 50% -30px/600px 286px no-repeat,
+    rgb(163, 145, 41);
+}
+
+#title {
+  text-align: center;
+  font-size: 6.2rem;
+  line-height: 1;
+  padding: 9rem 0 2.7rem;
+  letter-spacing: 0.3rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgb(46, 45, 0);
+}
+
+#main > p {
+  max-width: 52.8rem;
+  margin: 0 auto 3.6rem;
+  padding: 1.6rem;
+  background: rgba(255, 255, 255, 0.7);
+  line-height: 1.2;
+}
+
+#img-div {
+  background: #fff;
+  padding: 0.6rem;
+  max-width: 60rem;
+  margin: 0 auto 0;
+  box-shadow: 0px 0px 6px 1px rgb(46, 45, 0);
+}
+
+#img-div:hover {
+  box-shadow: 0px 0px 8px 3px rgb(46, 45, 0);
+  cursor: default;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 0.6rem;
+  line-height: 1.2;
+}
+
+#tribute-info {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+#tribute-info h2 {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  color: #fff;
+  text-align: center;
+  padding: 3.2rem 0 2.6rem;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+}
+
+#tribute-info li {
+  background: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  padding: 0.4rem 1.6rem;
+}
+
+#tribute-info li:hover {
+  background: rgba(255, 255, 255, 0.9);
+  cursor: default;
+}
+
+#tribute-info > blockquote {
+  max-width: 100%;
+  margin: 3.6rem auto 0.8rem;
+  padding: 0 3.6rem 0;
+}
+
+#tribute-info > blockquote > p {
+  padding: 1.6rem;
+  background: rgba(255, 255, 255, 0.7);
+  line-height: 1.2;
+}
+
+#tribute-info > blockquote > cite {
+  background: rgba(255, 255, 255, 0.9);
+  display: block;
+  margin: 0.8rem 0 3.6rem auto;
+  padding: 0.8rem;
+  text-align: right;
+  max-width: 240px;
+}
+
+h3 {
+  background: rgba(255, 255, 255, 0.7);
+  line-height: 1.4;
+  padding: 0.8rem 1.6rem 1.1rem;
+  font-size: 2.1rem;
+}
+
+h3 > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(116, 0, 0);
+}
+
+h3 > a:hover {
+  color: rgb(167, 0, 0);
+}
